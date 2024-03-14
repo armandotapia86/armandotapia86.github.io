@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/estilos.css">
+    <title>ENCRIPTADOR_DE_TEXTO_armandotapia</title>
+</head>
+
+<body>  
+  
+    <header>
+        <a href="#" rel="">
+            <img src="/imagenesReto1/ALULA-ORACLE.png" alt="Logo Alura" class="logo"> 
+        </a>
+    </header>
+    
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="INGRESE AQUI EL TEXTO QUE DESEA ENCRIPTAR" ></textarea>
+            <div class="encriptador-aviso"> 
+                <p class="texto-aviso"> SOLO LETRAS MINUSCULAS, SIN ACENTOS</p>
+            </div>
+            <div class="encriptador-contenedor">
+                <button type="submit" class="btn-encriptar">ENCRIPTAR</button>
+                <button type="submit" class="btn-desencriptar">DESENCRIPTAR</button>
+            </div>    
+        </section>
+
+        <section class="tarjeta">
+            <div class="tarjeta-contenedor">
+                <img src="/imagenesReto1/muñeco.png" alt="Logo Muñeco" class = "img-muñeco">
+                <p class="texto-dos">ENCRIPTADOR DE TEXTO</p>
+            </div>
+                <textarea type="mensaje" class="evaluar" readonly></textarea>  
+                <button type="submit" class="btn-copiar">COPIAR</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>ARMANDO TAPIA HERNANDEZ</p>
+        <p>ESTUDANTE ALURA LATAM - ORACLE NEXT ONE EDUCATION</p>
+    </footer>
+
+    <script src = "/encriptador.js"></script>
+
+</body>
+</html>
